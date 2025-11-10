@@ -88,8 +88,27 @@ section h3 {
 }
 
 .activity-card .participants ul {
-  list-style-type: disc;
-  padding-left: 20px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Delete button next to participant (small, unobtrusive) */
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.delete-btn:hover {
+  color: #b71c1c;
+}
+
+.participant-email {
+  display: inline-block;
 }
 
 .form-group {
